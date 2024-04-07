@@ -1,0 +1,40 @@
+/* AboutUs.css */
+
+.about-us {
+    padding: 20px;
+    background-image: url('./background1.jpg');
+    /* Path to the background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    /* Set text color to white for better visibility on a background image */
+}
+
+.section {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Adjust the opacity (last value) to make the background transparent */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #333;
+}
+
+.section p {
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Increase the height of the slider */
+.slick-slide {
+    height: 400px;
+    /* Adjust the height as needed */
+}

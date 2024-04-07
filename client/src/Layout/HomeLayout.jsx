@@ -83,7 +83,7 @@ const Layout = ({ children }) => {
             )}
 
             <li>
-              <Link to={"/courses"}>About Us</Link>
+              <Link to={"/AboutUs"}>About Us</Link>
             </li>
 
 

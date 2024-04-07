@@ -61,7 +61,7 @@ const Homepage = () => {
         <section className="text-left w-1/2 mr-10">
           
           <p className="text-xl text-gray-200">
-          AmbuSwift is dedicated to minimizing ambulance response times to enhance the safety and well-being of individuals in critical situations. By swiftly connecting patients with the necessary medical assistance, we aim to significantly reduce the probability of fatalities during emergencies. Our primary focus is on ensuring that timely and efficient ambulance services are readily available, thereby increasing the chances of survival and recovery for those in need. With AmbuSwift, every second counts towards saving lives, reinforcing our commitment to prioritizing the safety and care of our clients above all else.
+          AmbuSwift is dedicated to minimizing ambulance response times to enhance the safety and well-being of individuals in critical situations. By swiftly connecting patients with the necessary medical assistance, we aim to significantly reduce the probability of fatalities during emergencies. Our primary focus is on ensuring that timely and efficient ambulance services are readily available, thereby increasing the chances of survival and recovery for those in need.
           </p>
         </section>
 

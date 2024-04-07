@@ -1,29 +1,31 @@
-import './App.css';
+import React from "react";
 import { Routes, Route } from 'react-router-dom';
-
-//components
-import Home from './components/Home.js';
-import SignIn from './components/SignIn';
-import SignUp from './components/SignUp';
-import ResetPassword from './components/ResetPassword';
-import ForgotPassword from './components/ForgotPassword';
-import PageNotFound from './components/PageNotFound';
+import HomePage from './Pages/HomePage';
+import NotFound from './Pages/NotFound';
+import Booking from './Pages/Booking'; 
+import Rev from './Pages/Rev'; 
+import Admin from './Pages/Admin';
+import AboutUs from './Pages/AboutUs'; // Importing the AboutUs component
+import Signup from "./Pages/SignUp";
 
 function App() {
   return (
-    <div className="App  h-[100vh]  flex justify-center items-center">
+    <>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="/forgot-password" element={<ForgotPassword />} />
-        <Route
-          path="/reset-password/:resetPasswordToken"
-          element={<ResetPassword />}
-        />
-        <Route path="*" element={<PageNotFound />} />
+        <Route path="/" element={<HomePage />} />
+        
+        <Route path="/signup" element={<Signup />} />
+         
+         <Route path="/booking" element={<Booking />} />
+        {/* Use the Rev component */}
+        
+        <Route path="/rev" element={<Rev />} />
+        <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/admin" element={<Admin />} />
+
+        <Route path="*" element={<NotFound />} />
       </Routes>
-    </div>
+    </>
   );
 }
 
