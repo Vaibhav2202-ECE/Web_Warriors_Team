@@ -1,0 +1,19 @@
+ npm run dev
+
+1.  npm create vite@latest
+project name
+react
+javascript
+
+2. npm install
+3. app.css,index.csssw code remove
+4. npm install -D tailwindcss
+5. npx tailwindcss init
+6. npm install @reduxjs/toolkit react-redux react-router-dom react-icons react-chartjs-2 chart.js daisyui axios react-hot-toast @tailwindcss/line-clamp
+
+7. npm i -D eslint-plugin-simple-import-sort
+
+8. i -D postcss autoprefixer
+
+9. npx tailwindcss init -p
+

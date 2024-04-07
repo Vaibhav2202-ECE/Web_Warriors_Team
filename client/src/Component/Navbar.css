@@ -1,0 +1,48 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+  }
+  
+  .sticky {
+    position: fixed;
+    animation: fadeInDown 0.5s;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  .nav-links {
+    float: right;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      top: -50px;
+    }
+    to {
+      top: 0;
+    }
+  }
+  
